@@ -9,7 +9,7 @@ This repository has the Keras implementation of
 
 [Code for agents](/Agent/)
 
-[Article about this project](https://www.linkedin.com/pulse/deep-reinforcement-learning-trading-saeed-rahman)
+
 
 ![gif](images/fe800gif.gif)
 
