@@ -25,6 +25,8 @@ This repository has the Keras implementation of
 ### Architecture
 <p align="center"><img src="images/class_diagram.png"/></p>
 
+### Dataset
+S&P500 taken from Kaggle
 
 ### Features
 - 3 Reinforcement learning Agents (DQN, DDQN, DDDQN)
@@ -46,7 +48,7 @@ These rewards are what controls and optimize the agents during the training phas
 The latter 2 parameters control the trading frequency of the agent.
 
 
-### Further Approaches?
+### Further Approaches
 - Prioritized Experience Replay
 - LSTM networks
 - Asynchronous Advantage Actor-Critic (A3C)
