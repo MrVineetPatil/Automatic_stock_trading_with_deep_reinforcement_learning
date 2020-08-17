@@ -1,4 +1,4 @@
-# Deep Reinforcement Learning for Trading 
+# Automated Stock Trading using Deep Reinforcement Learning
 
 This repository provides the code for a Reinforcement Learning trading agent with its trading environment that works with both simulated and historical market data. This was inspired by [OpenAI Gym](https://gym.openai.com/) framework. 
 
@@ -15,9 +15,9 @@ This repository has the Keras implementation of
 
 
 ### Requirements
-- Python 3.5/3.6
-- Keras 
-- Tensorflow 
+- Python 3.5+
+- Keras
+- Tensorflow
 
 ### Workflow
 <p align="center"><img src="images/worflow.png" width="450px"/></p>
@@ -39,14 +39,14 @@ This repository has the Keras implementation of
 The agent could take three actions – Buy, Sell or Hold
 ### Reward
 The reward objective is set to maximize realized PnL from a round trip trade. 
-It also includes 
+It also includes:
 - Trading commision (penalty)
 - Holding fee (penalty), like the interest brokers charge for overnight levereg position. 
 These rewards are what controls and optimize the agents during the training phase that determines the trading behavior.
-The latter 2 parameters control the trading frequncy of the agent.
+The latter 2 parameters control the trading frequency of the agent.
 
 
-### What's next?
+### Further Approaches?
 - Prioritized Experience Replay
 - LSTM networks
 - Asynchronous Advantage Actor-Critic (A3C)
